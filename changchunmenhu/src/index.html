@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>欢迎登录</title>
+    <title>首页</title>
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/base.css">
@@ -25,6 +25,9 @@
 </div>
 <div class="main_container clearfix">
     <div class="sidebar">
+        <div class="collapse_icon">
+            <img src="./img/收起.png" alt="">
+        </div>
         <ul class="menu_list">
             <li class="is_active" type="0">
                 <div class="icon_div">
@@ -130,7 +133,7 @@
         <div><span>版权所有2016-1018长春新区管理委员会</span></div>
         <div><span>主办单位：长春新区管理委员会</span></div>
         <div><span>地址：吉林省长春市龙湖大路6799号  邮编：130102</span></div>
-        <div><span>承办单位：神州数码</span></div>
+        <div style="width: 168px"><span>承办单位：神州数码</span></div>
     </div>
 </div>
 <!-- 专题应用下半部分模板 -->
@@ -207,7 +210,9 @@
 <script src="./js/layout.js"></script>
 <script src="./js/render.js"></script>
 <script>
-
+    $('.collapse_icon').click(function () {
+        alert(1)
+    })
     window.onresize = function () {
         rem()
     }
