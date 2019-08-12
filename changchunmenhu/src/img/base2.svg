@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>选中基本 copy</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="选中基本-copy">
+            <rect id="矩形-copy-37" fill="#486CD8" x="0" y="0" width="60" height="60" rx="2"></rect>
+            <path d="M25.0446762,16.4091566 L32.1543295,29.2742436 C32.6885944,30.2410087 32.3379838,31.457834 31.3712187,31.9920989 C31.0750606,32.1557652 30.7422194,32.2416158 30.4038464,32.2416158 L16.1845398,32.2416158 C15.0799703,32.2416158 14.1845398,31.3461853 14.1845398,30.2416158 C14.1845398,29.9032429 14.2703904,29.5704017 14.4340567,29.2742436 L21.54371,16.4091566 C22.077975,15.4423915 23.2948002,15.0917809 24.2615653,15.6260458 C24.5911128,15.8081641 24.8625579,16.0796092 25.0446762,16.4091566 Z" id="三角形-copy-3" fill="#EDF0F3" opacity="0.100000001" transform="translate(23.294193, 22.741616) rotate(338.000000) translate(-23.294193, -22.741616) "></path>
+            <g id="分组-copy" transform="translate(22.000000, 10.000000)" fill="#FFFFFF">
+                <circle id="椭圆形" cx="7.5" cy="4.5" r="4.5"></circle>
+                <path d="M0,16 C0,11.581722 3.35786438,8 7.5,8 C11.6421356,8 15,11.581722 15,16 L8.8817842e-16,16 Z" id="合并形状" opacity="0.900000036"></path>
+                <rect id="矩形" opacity="0.900000036" x="11" y="15" width="6" height="1" rx="0.5"></rect>
+                <rect id="矩形-copy-3" opacity="0.900000036" x="11" y="13" width="5" height="1" rx="0.5"></rect>
+                <rect id="矩形-copy-4" opacity="0.900000036" x="11" y="11" width="3" height="1" rx="0.5"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

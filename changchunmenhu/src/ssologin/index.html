@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>欢迎登录</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/verify.css">
+</head>
+
+<body>
+    <div class="cont-box">
+        <h1>统一登陆过度页面</h1>
+    </div>
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.auto.min.js"></script> -->
+    <script src="../libs/es6-promise.min.js"></script>
+<script src="../libs/es6-promise.auto.min.js"></script>
+    <script src="../libs/jquery.js"></script>
+    <script src="../libs/verify.js"></script>
+    <script src="../js/ly_tool.js"></script>
+    <script src="../libs/bootstrap.min.js"></script>
+    <script src="../libs/axios.min.js"></script>
+    <script>
+        $(function () {
+            lyTool.toast('网络错误，请稍后再试试🙂')
+            if (getQueryVariable('gdbsTokenId') && getQueryVariable('gdbsRandom')) {
+                getCode(getQueryVariable('gdbsTokenId'), getQueryVariable('gdbsRandom'))
+            } else if (getQueryVariable('code')) {
+                getTocken(getQueryVariable('code'))
+            }
+        });
+
+        /*
+         * 根据传过来的参数，在后台获取code
+         * * @param {string} variable - 参数名称
+         * */
+        function getCode(gdbsTokenId, gdbsRandom) {
+            $.get('/api/sso/redirecturi?gdbsTokenId=' + gdbsTokenId + '&gdbsRandom=' + gdbsRandom,
+                function (res) {
+                    if (res.code == 200) {
+                        window.location.href = res.data;
+                    } else {
+                        lyTool.toast('网络错误，请稍后再试试🙂')
+                    }
+                })
+        }
+
+        function getTocken(code) {
+            $.get('/api/sso/login?code=' + code,
+                function (res) {
+                    if (res.code == 200) {
+                        //sessionStorage.setItem('username', $('.username').val());
+                        sessionStorage.setItem('token', res.data);
+                        //todo 需要优化操作，在获取token后应该获取当前人的个人信息，方便在页面展示
+                        window.location.href = "../index/index.html";
+                    } else {
+                        lyTool.toast('网络错误，请稍后再试试🙂')
+                    }
+                })
+        }
+
+        /*
+         * 解析获取URL参数
+         * * @param {string} variable - 参数名称
+         * */
+        function getQueryVariable(variable) {
+            var query = window.location.search.substring(1);
+            var vars = query.split("&");
+            for (var i = 0; i < vars.length; i++) {
+                var pair = vars[i].split("=");
+                if (pair[0] == variable) {
+                    return pair[1];
+                }
+            }
+            return (false);
+        }
+    </script>
+</body>
+
+</html>

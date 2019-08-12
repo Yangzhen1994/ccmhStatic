@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200px" height="340px" viewBox="0 0 1200 340" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>banner背景_slice</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="88.3785723%" y1="7.33357225%" x2="16.9171329%" y2="96.2463045%" id="linearGradient-1">
+            <stop stop-color="#5D94DC" offset="0%"></stop>
+            <stop stop-color="#4858D8" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="1200" height="340"></rect>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板">
+            <g id="banner背景">
+                <mask id="mask-3" fill="white">
+                    <use xlink:href="#path-2"></use>
+                </mask>
+                <use id="矩形" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                <image id="斗士--任天堂明星大乱斗-特别版--任天堂" opacity="0.22172619" style="mix-blend-mode: multiply;" mask="url(#mask-3)" x="0" y="0" width="1490" height="340" xlink:href="data:image/png;base64,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"></image>
+                <g id="分组-2" opacity="0.151948475" mask="url(#mask-3)">
+                    <g transform="translate(-24.000000, 124.666667)" opacity="0.100000001">
+                        <g id="Repeat-Group">
+                            <ellipse id="椭圆形" fill="#000000" cx="30.7819315" cy="5.95617861" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="57.05919" cy="5.95617861" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="81.834891" cy="5.95617861" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="108.862928" cy="5.95617861" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="132.137072" cy="5.95617861" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="159.165109" cy="5.95617861" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="183.94081" cy="5.95617861" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="210.218069" cy="5.95617861" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="235.744548" cy="5.95617861" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="30.7819315" cy="34.886189" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="57.05919" cy="34.886189" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="81.834891" cy="34.886189" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="108.862928" cy="34.886189" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="132.137072" cy="34.886189" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="159.165109" cy="34.886189" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="183.94081" cy="34.886189" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="210.218069" cy="34.886189" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="235.744548" cy="34.886189" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="30.7819315" cy="64.667082" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="57.05919" cy="64.667082" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="81.834891" cy="64.667082" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="108.862928" cy="64.667082" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="132.137072" cy="64.667082" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="159.165109" cy="64.667082" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="183.94081" cy="64.667082" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="210.218069" cy="64.667082" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="235.744548" cy="64.667082" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="30.7819315" cy="92.7462098" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="57.05919" cy="92.7462098" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="81.834891" cy="92.7462098" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="108.862928" cy="92.7462098" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="132.137072" cy="92.7462098" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="159.165109" cy="92.7462098" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="183.94081" cy="92.7462098" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="210.218069" cy="92.7462098" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="235.744548" cy="92.7462098" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="30.7819315" cy="123.377985" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="57.05919" cy="123.377985" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="81.834891" cy="123.377985" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="108.862928" cy="123.377985" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="132.137072" cy="123.377985" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="159.165109" cy="123.377985" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="183.94081" cy="123.377985" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="210.218069" cy="123.377985" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="235.744548" cy="123.377985" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="30.7819315" cy="149.755348" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="57.05919" cy="149.755348" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="81.834891" cy="149.755348" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="108.862928" cy="149.755348" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="132.137072" cy="149.755348" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="159.165109" cy="149.755348" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="183.94081" cy="149.755348" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="210.218069" cy="149.755348" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="235.744548" cy="149.755348" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="30.7819315" cy="180.387124" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="57.05919" cy="180.387124" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="81.834891" cy="180.387124" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="108.862928" cy="180.387124" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="132.137072" cy="180.387124" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="159.165109" cy="180.387124" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="183.94081" cy="180.387124" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="210.218069" cy="180.387124" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="235.744548" cy="180.387124" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="30.7819315" cy="208.466251" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="57.05919" cy="208.466251" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="81.834891" cy="208.466251" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="108.862928" cy="208.466251" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="132.137072" cy="208.466251" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="159.165109" cy="208.466251" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="183.94081" cy="208.466251" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="210.218069" cy="208.466251" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="235.744548" cy="208.466251" rx="5.25545171" ry="5.95617861"></ellipse>
+                        </g>
+                        <g id="Repeat-Group-Copy" transform="translate(258.000000, 0.000000)">
+                            <ellipse id="椭圆形" fill="#000000" cx="5.25545171" cy="5.95617861" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="30.7819315" cy="5.95617861" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="57.05919" cy="5.95617861" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="81.834891" cy="5.95617861" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="108.862928" cy="5.95617861" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="132.137072" cy="5.95617861" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="159.165109" cy="5.95617861" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="183.94081" cy="5.95617861" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="210.218069" cy="5.95617861" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="235.744548" cy="5.95617861" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="5.25545171" cy="34.886189" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="30.7819315" cy="34.886189" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="57.05919" cy="34.886189" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="81.834891" cy="34.886189" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="108.862928" cy="34.886189" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="132.137072" cy="34.886189" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="159.165109" cy="34.886189" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="183.94081" cy="34.886189" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="210.218069" cy="34.886189" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="235.744548" cy="34.886189" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="5.25545171" cy="64.667082" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="30.7819315" cy="64.667082" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="57.05919" cy="64.667082" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="81.834891" cy="64.667082" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="108.862928" cy="64.667082" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="132.137072" cy="64.667082" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="159.165109" cy="64.667082" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="183.94081" cy="64.667082" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="210.218069" cy="64.667082" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="235.744548" cy="64.667082" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="5.25545171" cy="92.7462098" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="30.7819315" cy="92.7462098" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="57.05919" cy="92.7462098" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="81.834891" cy="92.7462098" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="108.862928" cy="92.7462098" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="132.137072" cy="92.7462098" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="159.165109" cy="92.7462098" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="183.94081" cy="92.7462098" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="210.218069" cy="92.7462098" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="235.744548" cy="92.7462098" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="5.25545171" cy="123.377985" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="30.7819315" cy="123.377985" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="57.05919" cy="123.377985" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="81.834891" cy="123.377985" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="108.862928" cy="123.377985" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="132.137072" cy="123.377985" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="159.165109" cy="123.377985" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="183.94081" cy="123.377985" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="210.218069" cy="123.377985" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="235.744548" cy="123.377985" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="5.25545171" cy="149.755348" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="30.7819315" cy="149.755348" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="57.05919" cy="149.755348" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="81.834891" cy="149.755348" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="108.862928" cy="149.755348" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="132.137072" cy="149.755348" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="159.165109" cy="149.755348" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="183.94081" cy="149.755348" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="210.218069" cy="149.755348" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="235.744548" cy="149.755348" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="5.25545171" cy="180.387124" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="30.7819315" cy="180.387124" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="57.05919" cy="180.387124" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="81.834891" cy="180.387124" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="108.862928" cy="180.387124" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="132.137072" cy="180.387124" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="159.165109" cy="180.387124" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="183.94081" cy="180.387124" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="210.218069" cy="180.387124" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="235.744548" cy="180.387124" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="5.25545171" cy="208.466251" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="30.7819315" cy="208.466251" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="57.05919" cy="208.466251" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="81.834891" cy="208.466251" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="108.862928" cy="208.466251" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="132.137072" cy="208.466251" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="159.165109" cy="208.466251" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="183.94081" cy="208.466251" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="210.218069" cy="208.466251" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="235.744548" cy="208.466251" rx="5.25545171" ry="5.95617861"></ellipse>
+                        </g>
+                        <g id="Repeat-Group-Copy-2" transform="translate(516.000000, 0.000000)">
+                            <ellipse id="椭圆形" fill="#000000" cx="5.25545171" cy="5.95617861" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="30.7819315" cy="5.95617861" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="57.05919" cy="5.95617861" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="81.834891" cy="5.95617861" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="108.862928" cy="5.95617861" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="132.137072" cy="5.95617861" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="159.165109" cy="5.95617861" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="183.94081" cy="5.95617861" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="210.218069" cy="5.95617861" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="235.744548" cy="5.95617861" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="5.25545171" cy="34.886189" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="30.7819315" cy="34.886189" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="57.05919" cy="34.886189" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="81.834891" cy="34.886189" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="108.862928" cy="34.886189" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="132.137072" cy="34.886189" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="159.165109" cy="34.886189" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="183.94081" cy="34.886189" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="210.218069" cy="34.886189" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="235.744548" cy="34.886189" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="5.25545171" cy="64.667082" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="30.7819315" cy="64.667082" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="57.05919" cy="64.667082" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="81.834891" cy="64.667082" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="108.862928" cy="64.667082" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="132.137072" cy="64.667082" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="159.165109" cy="64.667082" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="183.94081" cy="64.667082" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="210.218069" cy="64.667082" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="235.744548" cy="64.667082" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="5.25545171" cy="92.7462098" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="30.7819315" cy="92.7462098" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="57.05919" cy="92.7462098" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="81.834891" cy="92.7462098" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="108.862928" cy="92.7462098" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="132.137072" cy="92.7462098" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="159.165109" cy="92.7462098" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="183.94081" cy="92.7462098" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="210.218069" cy="92.7462098" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="235.744548" cy="92.7462098" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="5.25545171" cy="123.377985" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="30.7819315" cy="123.377985" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="57.05919" cy="123.377985" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="81.834891" cy="123.377985" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="108.862928" cy="123.377985" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="132.137072" cy="123.377985" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="159.165109" cy="123.377985" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="183.94081" cy="123.377985" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="210.218069" cy="123.377985" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="235.744548" cy="123.377985" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="5.25545171" cy="149.755348" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="30.7819315" cy="149.755348" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="57.05919" cy="149.755348" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="81.834891" cy="149.755348" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="108.862928" cy="149.755348" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="132.137072" cy="149.755348" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="159.165109" cy="149.755348" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="183.94081" cy="149.755348" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="210.218069" cy="149.755348" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="235.744548" cy="149.755348" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="5.25545171" cy="180.387124" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="30.7819315" cy="180.387124" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="57.05919" cy="180.387124" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="81.834891" cy="180.387124" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="108.862928" cy="180.387124" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="132.137072" cy="180.387124" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="159.165109" cy="180.387124" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="183.94081" cy="180.387124" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="210.218069" cy="180.387124" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="235.744548" cy="180.387124" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="5.25545171" cy="208.466251" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="30.7819315" cy="208.466251" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="57.05919" cy="208.466251" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="81.834891" cy="208.466251" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="108.862928" cy="208.466251" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="132.137072" cy="208.466251" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="159.165109" cy="208.466251" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="183.94081" cy="208.466251" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="210.218069" cy="208.466251" rx="5.25545171" ry="5.95617861"></ellipse>
+                            <ellipse id="椭圆形" fill="#000000" cx="235.744548" cy="208.466251" rx="5.25545171" ry="5.95617861"></ellipse>
+                        </g>
+                    </g>
+                </g>
+                <path d="M-118.208955,270.220172 C-49.9120947,279.81867 17.423084,175.73236 181.02196,169.61118 C344.620835,163.49 491.800251,267.654089 664.808262,256.705954 C837.816273,245.75782 892.965654,160.36598 1082.51525,148.954448 C1272.06485,137.542917 1296.80661,250.086524 1387.36509,256.931457 C1477.92357,263.776389 1533.89726,255.689132 1591.26902,259.874376 C1629.51686,262.664539 1623.20665,323.2773 1572.33841,441.71266 L312.730281,448.300164 L93.0985065,442.897562 C-93.3043741,321.380304 -163.740194,263.821174 -118.208955,270.220172 Z" id="路径-20" fill="#000000" opacity="0.03" mask="url(#mask-3)" transform="translate(742.138043, 298.221360) rotate(-8.000000) translate(-742.138043, -298.221360) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

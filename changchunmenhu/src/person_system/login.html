@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>登录</title>
+    <script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+    <script src="./js/layout.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="icon" href="./img/favicon.ico" />
+</head>
+<body>
+<div class="login_area">
+    <div class="insert_pic pa">
+        <img src="./img/login/logo.png" alt="" class="logo">
+        <img src="./img/login/insert_pilar.png" alt="" class="pilar">
+        <img src="./img/login/insert_clound.png" alt="" class="clound">
+        <img src="./img/login/insert_man.png" alt="" class="man">
+        <img src="./img/login/insert_computer.png" alt="" class="computer">
+        <img src="./img/login/insert_coin.png" alt="" class="coin">
+        <img src="./img/login/insert_pie.png" alt="" class="pie">
+
+    </div>
+    <form class="layui-form" method="post" onsubmit="return false">
+        <div class="layadmin-user-login-box layadmin-user-login-body layui-form">
+            <div class="layui-form-item">
+                <label class="layadmin-user-login-icon layui-icon" for="userName"><img src="./img/login/user.png" alt=""
+                                                                                       width="18px"></label>
+                <input required type="text" class="layui-input" name="username" id="userName"
+                       autofocus="autofocus" autocomplete="off"
+                       lay-verify="required" lay-verType="tips" tabindex="1"/>
+                <input type="text" style="width: 0;height: 0;border: none">
+            </div>
+            <div class="layui-form-item">
+                <input type="password" style="width: 0;height: 0;border: none;position: absolute">
+                <label class="layadmin-user-login-icon layui-icon" for="password"><img src="./img/login/lock.png" alt=""
+                                                                                       width="18px"></label>
+                <input required type="password" class="layui-input" name="password" id="password"
+                       lay-verType="tips" lay-verify="required" autocomplete="off" tabindex="2"/>
+            </div>
+            <div class="layui-form-item">
+                <button class="layui-btn layui-btn-fluid" lay-submit onclick="goIndex()">登 录</button>
+            </div>
+        </div>
+    </form>
+</div>
+<canvas id="canvas"></canvas>
+<div class="icon_area">
+    <img src="./img/login/1.png" alt="">
+    <img src="./img/login/2.png" alt="">
+    <img src="./img/login/3.png" alt="">
+    <img src="./img/login/4.png" alt="">
+    <img src="./img/login/5.png" alt="">
+    <img src="./img/login/6.png" alt="">
+</div>
+</body>
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/simplex-noise/2.3.0/simplex-noise.min.js"></script>
+<script>
+    function goIndex(){
+        if($('#userName').val()==''){
+            alert('姓名不能为空')
+            return false
+        }
+        if($('#password').val()==''){
+            alert('密码不能为空')
+            return false
+        }
+        window.location.href='./index.html'
+    }
+    window.onload = function () {
+
+        $('.icon_area img,.insert_pic img').show().each(function (index, item) {
+            //var pos = getImgPosition()
+            $(item).css({
+                'width': $(item).width() / 200 + 'rem',
+                'height': $(item).height() / 200 + 'rem',
+
+            })
+
+
+        });
+
+        /*生成随机img位置*/
+        function getImgPosition() {
+            var imgX = Math.random().toFixed(2) * window.innerWidth;
+            var imgY = Math.random().toFixed(2) * (window.innerHeight / 2);
+            return {
+                x: imgX,
+                y: imgY
+            }
+        }
+
+        /*******坑坑的波浪效果**********/
+        var wave = {
+            init: function () {
+                this.canvas = document.getElementById('canvas');
+                this.ctx = this.canvas.getContext('2d');
+                this.simplex = new SimplexNoise();
+                this.speedY = 0;
+                this.speedX = 0;
+                this.reset();
+                this.loop();
+            },
+            reset: function () {
+                this.w = window.innerWidth;
+                this.h = window.innerHeight;
+                this.canvas.width = this.w;
+                this.canvas.height = this.h;
+                this.count = Math.ceil(this.w / Math.floor(Math.random() * 40 + 40));
+            },
+            loop: function () {
+                var This = this;
+
+                function drawloop() {
+                    window.requestAnimationFrame(drawloop);
+                    This.ctx.clearRect(0, 0, This.w, This.h);
+                    This.speedX = 0;
+                    This.speedY += 0.01; //每次渲染需要更新波峰波谷值
+                    //连续绘制三次波浪线
+
+                    This.draw('rgba(202, 203, 221,.8)', 'source-over');
+                    This.draw('rgba(15,18,84,.8)', 'source-over');
+                }
+
+                drawloop();
+            },
+            draw: function (color, comp) {
+                var amp = 90; //波浪幅度 可以通过函数传递参数更改不同的幅度
+                this.ctx.beginPath();
+                for (var i = 0; i <= this.count; i++) {
+                    this.speedX += 0.05;
+                    var x = i * (this.w / this.count);
+                    var y = this.h / 2 - this.simplex.noise2D(this.speedX, this.speedY) * amp;
+                    this.ctx[i === 0 ? 'moveTo' : 'lineTo'](x, y);
+                    //获取登陆框距离底部的距离
+                    var limitBottom = ((window.innerHeight) - 396) / 2;
+
+                    $('.icon_area img').each(function (index, item) {
+                        if (index == 3 || index == 4 || index == 2) {
+                            /* if(y<limitBottom-50){
+                                 $(item).css({
+                                     'bottom':y
+                                 })
+                             }else{*/
+                            $(item).css({
+                                'bottom': y / 2.4 / 100 + 'rem'
+                            })
+                            /*}*/
+                        } else {
+                            $(item).css({
+                                'bottom': y / 100 + 'rem'
+                            })
+                        }
+
+                    });
+                }
+                this.ctx.lineTo(this.w, -this.h);
+                this.ctx.lineTo(0, -this.h);
+                this.ctx.closePath();
+                this.ctx.fillStyle = color;
+                this.ctx.globalCompositeOperation = comp;
+                this.ctx.fill();
+
+            }
+        }
+
+        wave.init();
+        /****输入框fouce******/
+
+        $('#userName,#password').focus(function () {
+            $(this).addClass('focused');
+            var newSrc = $(this).prev().find('img').attr('src').split('/').reverse()[0].split('.')[0] + '-sel.png'
+            $(this).prev().find('img').attr('src', './img/login/' + newSrc)
+        })
+        $('#userName,#password').blur(function () {
+            $(this).removeClass('focused');
+            var newSrc = $(this).prev().find('img').attr('src').split('/').reverse()[0].split('.')[0].replace('-sel', '') + '.png'
+            $(this).prev().find('img').attr('src', './img/login/' + newSrc)
+        })
+        $('#userName').focus()
+        /******回车登陆****/
+        $(document).bind('keyup', function (event) {
+            if (event.keyCode == "13" && $("#password").is(":focus")) {
+                $('layui-btn').trigger('click')
+            }
+        })
+    }
+
+</script>
+</html>

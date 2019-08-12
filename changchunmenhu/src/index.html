@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>欢迎登录</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/base.css">
+    <script src="js/common.js"></script>
+</head>
+<body>
+<div class="header clearfix">
+    <div class="logo fl">
+        <img src="./img/logo.png" alt="">
+    </div>
+    <div class="heder_right_area fr">
+        <div class="time_ara fl"></div>
+        <div class="login_area fl">
+            <div class="login_btn">登录</div>
+        </div>
+    </div>
+</div>
+<div class="main_container clearfix">
+    <div class="sidebar">
+        <ul class="menu_list">
+            <li class="is_active" type="0">
+                <div class="icon_div">
+                    <img src="./img/menuIcon01_sel.png" alt="">
+                </div>
+                <div class="text_div">新闻中心</div>
+            </li>
+            <li type="1">
+                <div class="icon_div">
+                    <img src="./img/menuIcon02.png" alt="">
+                </div>
+                <div class="text_div">专题应用</div>
+            </li>
+            <li type="2">
+                <div class="icon_div">
+                    <img src="./img/menuIcon03.png" alt="">
+                </div>
+                <div class="text_div">基础平台</div>
+            </li>
+            <li type="3">
+                <div class="icon_div">
+                    <img src="./img/menuIcon05.png" alt="">
+                </div>
+                <div class="text_div">数据中枢</div>
+            </li>
+            <li type="4">
+                <div class="icon_div">
+                    <img src="./img/menuIcon03.png" alt="">
+                </div>
+                <div class="text_div">标准体系</div>
+            </li>
+        </ul>
+    </div>
+    <div class="content">
+        <div class="card_wrap clearfix">
+            <div class="card_1 clearfix">
+                <div class="card_title">
+                    <div class="">数据湖汇聚数据情况</div>
+                    <div class="card_desc">截止到昨日的数据</div>
+                </div>
+                <div class="card_content">
+                    <div class="">
+                        <div class="card_data">13,835万</div>
+                        <div class="card_desc">实体数据（条）</div>
+                    </div>
+                    <div class="" style="position: relative;left: -80px;">
+                        <div class="card_data">10T</div>
+                        <div class="card_desc">文件存储量</div>
+                    </div>
+                </div>
+            </div>
+            <div class="card_2">
+                <div class="card_title">
+                    <div class="card_data">信息资源目录梳理情况</div>
+                    <div class="card_desc">截止到昨日的数据</div>
+                </div>
+                <div class="card_content">
+                    <div class="">
+                        <div class="card_data">50</div>
+                        <div class="card_desc">梳理部门</div>
+                    </div>
+                    <div class="" >
+                        <div class="card_data">809</div>
+                        <div class="card_desc">业务事项</div>
+                    </div>
+                    <div class="" >
+                        <div class="card_data">237</div>
+                        <div class="card_desc">信息系统</div>
+                    </div>
+                    <div class="" >
+                        <div class="card_data">2122</div>
+                        <div class="card_desc">资源目录</div>
+                    </div>
+                </div>
+            </div>
+            <div class="card_3">
+                <div class="card_title">
+                    <div class="">基础库数据与共享情况</div>
+                    <div class="card_desc">截止到昨日的数据</div>
+                </div>
+                <div class="card_content">
+                    <div class="">
+                        <div class="card_data">13,835万</div>
+                        <div class="card_desc">总数据量</div>
+                    </div>
+                    <div class="" style="position: relative;left: -80px;">
+                        <div class="card_data">2132</div>
+                        <div class="card_desc">数据服务</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tab_wrap clearfix">
+            <div class="title" id="rightTitle">
+                <img src="./img/titIcon01.png" class="title_icon" alt="">新闻中心
+            </div>
+            <div class="tab_wrap_content clearfix" id="rightContent"></div>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <div class="footer_text_area">
+        <div><span>版权所有2016-1018长春新区管理委员会</span></div>
+        <div><span>主办单位：长春新区管理委员会</span></div>
+        <div><span>地址：吉林省长春市龙湖大路6799号  邮编：130102</span></div>
+        <div><span>承办单位：神州数码</span></div>
+    </div>
+</div>
+<!-- 专题应用下半部分模板 -->
+<script id="ztyy" type="text/html">
+    {{if list.length > 0}}
+        {{each list value i}}
+            <div class="right_card right_card_ztyy">
+
+                <div class="img_wrap">
+                    <a href="{{value.url}}">
+                        <img src="./img/ztyy/{{value.img}}" alt="">
+                    </a>
+                </div>
+                <div class="right_card_title">
+                    <a href="{{value.url}}">{{value.title}}</a>
+                </div>
+                <div class="right_card_desc">
+                    {{value.desc}}
+                </div>
+            </div>
+        {{/each}}
+    {{/if}}
+</script>
+<!-- 基础平台下半部分模板 -->
+<script id="jcpt" type="text/html">
+    {{if list.length > 0}}
+    {{each list value i}}
+    <div class="right_card right_card_jcpt">
+
+        <div class="img_wrap">
+            <a href="{{value.url}}">
+                <img src="./img/jcpt/{{value.img}}" alt="">
+            </a>
+        </div>
+        <div class="right_card_title">
+            <a href="{{value.url}}">{{value.title}}</a>
+        </div>
+        <div class="right_card_desc">
+            {{value.desc}}
+        </div>
+    </div>
+    {{/each}}
+    {{/if}}
+</script>
+<!-- 数据中枢tabs下半部分模板 -->
+<script id="sjzs" type="text/html">
+    {{if list.length > 0}}
+    {{each list value i}}
+    <div class="right_card right_card_sjzs">
+
+        <div class="img_wrap">
+            <a href="{{value.url}}">
+                <img src="./img/sjzs/{{value.img}}" alt="">
+            </a>
+        </div>
+        <div class="right_card_title">
+            <a href="{{value.url}}">{{value.title}}</a>
+        </div>
+        <div class="right_card_desc">
+            {{value.desc}}
+        </div>
+    </div>
+    {{/each}}
+    {{/if}}
+</script>
+
+<script src="./libs/es6-promise.min.js"></script>
+<script src="./libs/es6-promise.auto.min.js"></script>
+<script src="./libs/jquery.js"></script>
+<script src="./libs/template-web.js"></script>
+<script src="./libs/bootstrap.min.js"></script>
+<script src="./libs/axios.min.js"></script>
+<script src="./js/config.js"></script>
+<script src="./js/layout.js"></script>
+<script src="./js/render.js"></script>
+<script>
+
+    window.onresize = function () {
+        rem()
+    }
+      //  alert($('.footer').height()/2)
+
+
+</script>
+</body>
+
+</html>

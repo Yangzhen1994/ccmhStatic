@@ -1,0 +1,151 @@
+{
+  "code": 200,
+  "message": "操作成功！",
+  "data": [
+    {
+      "code": "P0A0",
+      "name": "基本信息",
+      "ncode": "psnBasicInfo",
+      "type": "BRANCH",
+      "value": null,
+      "ext": null,
+      "icon": "baseIf",
+      "memo": "我是谁、我从哪里来、我要到哪里去，柏拉图哲学问题的答案看过来",
+      "children": null
+    },
+    {
+      "code": "P0A1",
+      "name": "经营管理",
+      "ncode": "psnEduIf",
+      "type": "BRANCH",
+      "value": null,
+      "ext": null,
+      "icon": "eduIf",
+      "memo": "学历决定你的下限，能力决定你的上限",
+      "children": null
+    },
+    {
+      "code": "P0A2",
+      "name": "财务税务",
+      "ncode": "psnWorkIf",
+      "type": "BRANCH",
+      "value": null,
+      "ext": null,
+      "icon": "workIf",
+      "memo": "从菜鸟新人到职场老手，一路见证你的职业成长",
+      "children": null
+    },
+    {
+      "code": "P0A3",
+      "name": "资质信息",
+      "ncode": "psnMediIf",
+      "type": "BRANCH",
+      "value": null,
+      "ext": null,
+      "icon": "yiliaoIf",
+      "memo": "工作再忙、应酬再多，也别忘了关注自己和家人的身心健康",
+      "children": null
+    },
+    {
+      "code": "P0A4",
+      "name": "知识产权",
+      "ncode": "psnSecurIf",
+      "type": "BRANCH",
+      "value": null,
+      "ext": null,
+      "icon": "baozhangIf",
+      "memo": "医保、社保、公积金，福利、津贴、商业险过来了解一下",
+      "children": null
+    },
+    {
+      "code": "P0A5",
+      "name": "抵押质押",
+      "ncode": "psnPermIf",
+      "type": "BRANCH",
+      "value": null,
+      "ext": null,
+      "icon": "zhenghzaoIf",
+      "memo": "在你证明不了“你就是你”的时候，也许这些资料可以帮到你",
+      "children": null
+    },
+    {
+      "code": "P0A6",
+      "name": "遵从规范",
+      "ncode": "psnQualIf",
+      "type": "BRANCH",
+      "value": null,
+      "ext": null,
+      "icon": "zizhiIf",
+      "memo": "拿起“敲门砖”，职位随便选；备好“通行证”，资源任意用",
+      "children": null
+    },
+    {
+      "code": "P0A7",
+      "name": "社会事件",
+      "ncode": "psnAssIf",
+      "type": "BRANCH",
+      "value": null,
+      "ext": null,
+      "icon": "zichanIf",
+      "memo": "你可以看不起我，但不能看不起我的房产、地产和锅铲",
+      "children": null
+    },
+    {
+      "code": "P0A8",
+      "name": "法律制裁",
+      "ncode": "psnNegaIf",
+      "type": "BRANCH",
+      "value": null,
+      "ext": null,
+      "icon": "fumianIf",
+      "memo": "那些在道德边缘试探的人，我劝你善良",
+      "children": null
+    },
+    {
+      "code": "P0A9",
+      "name": "抽查检查",
+      "ncode": "psnNegaIf",
+      "type": "BRANCH",
+      "value": null,
+      "ext": null,
+      "icon": "fumianIf",
+      "memo": "那些在道德边缘试探的人，我劝你善良",
+      "children": null
+    },
+    {
+      "code": "P0A10",
+      "name": "行业评价",
+      "ncode": "psnNegaIf",
+      "type": "BRANCH",
+      "value": null,
+      "ext": null,
+      "icon": "fumianIf",
+      "memo": "那些在道德边缘试探的人，我劝你善良",
+      "children": null
+    },
+    {
+      "code": "P0A11",
+      "name": "企业档案",
+      "ncode": "psnNegaIf",
+      "type": "BRANCH",
+      "value": null,
+      "ext": null,
+      "icon": "fumianIf",
+      "memo": "那些在道德边缘试探的人，我劝你善良",
+      "children": null
+    },
+    {
+      "code": "P0A12",
+      "name": "关联关系",
+      "ncode": "psnNegaIf",
+      "type": "BRANCH",
+      "value": null,
+      "ext": null,
+      "icon": "fumianIf",
+      "memo": "那些在道德边缘试探的人，我劝你善良",
+      "children": null
+    }
+  ],
+  "timestamp": "1551693381351",
+  "success": true
+}

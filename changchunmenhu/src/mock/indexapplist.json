@@ -1,0 +1,480 @@
+{
+  "code": 200,
+  "message": "操作成功！",
+  "data": [
+    {
+      "ico": "kjcxMap.svg",
+      "name": "科技创新",
+      "sort": 1,
+      "value": [
+        {
+          "appico": "kjcxMap.svg",
+          "crdt": "2019-01-08 14:53:14",
+          "applink": "http://www.gdzwfw.gov.cn/portal/guide/11440300007542814732102009000",
+          "appdesc": null,
+          "appid": 27,
+          "apptype": null,
+          "appnm": "高企认定",
+          "cid": 646
+        },
+        {
+          "appico": "kjcxMap.svg",
+          "crdt": "2019-01-08 14:51:46",
+          "applink": "http://www.gdzwfw.gov.cn/portal/guide/11440300MB2C43232G40502001000",
+          "appdesc": null,
+          "appid": 25,
+          "apptype": null,
+          "appnm": "高新技术培育",
+          "cid": 645
+        },
+        {
+          "appico": "kjcxMap.svg",
+          "crdt": "2019-01-08 14:54:37",
+          "applink": "http://apps.szlhq.gov.cn/lhxinqu/zdfw/xwsq/index.html",
+          "appdesc": null,
+          "appid": 29,
+          "apptype": null,
+          "appnm": "科技申请计划",
+          "cid": 649
+        },
+        {
+          "appico": "kjcxMap.svg",
+          "crdt": "2019-01-08 14:57:36",
+          "applink": "http://apps.szlhq.gov.cn/lhxinqu/fwztgb/jyfwgb/jyfw5/fwxshjz92/xszz12/2242684/index.html",
+          "appdesc": null,
+          "appid": 31,
+          "apptype": null,
+          "appnm": "孔雀申请计划",
+          "cid": 647
+        },
+        {
+          "appico": "kjcxMap.svg",
+          "crdt": "2019-01-08 14:52:29",
+          "applink": "http://www.gdzwfw.gov.cn/portal/guide/1144030000754281473442100000007",
+          "appdesc": null,
+          "appid": 26,
+          "apptype": null,
+          "appnm": "科技奖励申请",
+          "cid": 640
+        },
+        {
+          "appico": "kjcxMap.svg",
+          "crdt": "2019-01-08 14:50:40",
+          "applink": "http://localhost:9528/#/service/adhibition",
+          "appdesc": "http://localhost:9528/#/service/adhibition",
+          "appid": 24,
+          "apptype": "0",
+          "appnm": "科技专项资金申请",
+          "cid": 623
+        },
+        {
+          "appico": "kjcxMap.svg",
+          "crdt": "2019-01-08 14:53:56",
+          "applink": "http://www.sz.gov.cn/jylyfw/tsjy/xxxsbm/201705/t20170508_6655872.htm",
+          "appdesc": null,
+          "appid": 28,
+          "apptype": null,
+          "appnm": "专利申请",
+          "cid": 623
+        },
+        {
+          "appico": "kjcxMap.svg",
+          "crdt": "2019-01-08 14:53:14",
+          "applink": "http://www.gdzwfw.gov.cn/portal/guide/11440300007542814732102009000",
+          "appdesc": null,
+          "appid": 27,
+          "apptype": null,
+          "appnm": "人才技术引进审核",
+          "cid": 646
+        },
+        {
+          "appico": "kjcxMap.svg",
+          "crdt": "2019-01-08 14:51:46",
+          "applink": "http://www.gdzwfw.gov.cn/portal/guide/11440300MB2C43232G40502001000",
+          "appdesc": null,
+          "appid": 25,
+          "apptype": null,
+          "appnm": "项目审批办理",
+          "cid": 645
+        },
+        {
+          "appico": "kjcxMap.svg",
+          "crdt": "2019-01-08 14:54:37",
+          "applink": "http://apps.szlhq.gov.cn/lhxinqu/zdfw/xwsq/index.html",
+          "appdesc": null,
+          "appid": 29,
+          "apptype": null,
+          "appnm": "技术资格申报",
+          "cid": 649
+        }
+      ],
+      "desc": null
+    },
+    {
+      "ico": "qyjyMap.svg",
+      "name": "企业经营",
+      "sort": 2,
+      "value": [
+        {
+          "appico": "qyjyMap.svg",
+          "crdt": "2019-01-08 15:11:40",
+          "applink": "123",
+          "appdesc": "123",
+          "appid": 43,
+          "apptype": "0",
+          "appnm": "申报单位预申请"
+        },
+        {
+          "appico": "qyjyMap.svg",
+          "crdt": "2019-01-08 14:24:56",
+          "applink": "https://www.chsi.com.cn/xlcx/",
+          "appdesc": null,
+          "appid": 8,
+          "apptype": null,
+          "appnm": "发票印刷审批",
+          "cid": 613
+        },
+        {
+          "appico": "qyjyMap.svg",
+          "crdt": "2019-01-08 15:11:17",
+          "applink": "111111111",
+          "appdesc": "111111111",
+          "appid": 42,
+          "apptype": "0",
+          "appnm": "纳税申报"
+        },
+        {
+          "appico": "qyjyMap.svg",
+          "crdt": "2019-01-08 15:06:07",
+          "applink": "123",
+          "appdesc": "123",
+          "appid": 40,
+          "apptype": "0",
+          "appnm": "发票查验"
+        },
+        {
+          "appico": "qyjyMap.svg",
+          "crdt": "2019-01-08 14:23:28",
+          "applink": "http://apps.szlhq.gov.cn/lhxinqu/zdfw/hjbl/index.html",
+          "appdesc": null,
+          "appid": 6,
+          "apptype": null,
+          "appnm": "税银服务",
+          "cid": 677
+        },
+        {
+          "appico": "qyjyMap.svg",
+          "crdt": "2019-01-08 14:26:20",
+          "applink": "http://www.sztax.gov.cn/sztax/bsfw_bszn_sbns_dsdjdkdjsb/201806/ad9d728477e943688a04f7c177a87138.shtml",
+          "appdesc": null,
+          "appid": 9,
+          "apptype": null,
+          "appnm": "税收减免审批"
+        },
+        {
+          "appico": "qyjyMap.svg",
+          "crdt": "2019-01-08 14:21:54",
+          "applink": "http://hrss.sz.gov.cn/wsbs/xfjc/zc/201209/t20120904_2005184.htm",
+          "appdesc": null,
+          "appid": 4,
+          "apptype": null,
+          "appnm": "税款抵扣"
+        },
+        {
+          "appico": "qyjyMap.svg",
+          "crdt": "2019-02-28 09:56:49",
+          "applink": "新增test",
+          "appdesc": "新增test新增test新增test新增test",
+          "appid": 47,
+          "apptype": "0",
+          "appnm": "税收减免备案"
+        },
+        {
+          "appico": "qyjyMap.svg",
+          "crdt": "2019-02-28 09:56:49",
+          "applink": "新增test",
+          "appdesc": "新增test新增test新增test新增test",
+          "appid": 47,
+          "apptype": "0",
+          "appnm": "出口退税"
+        },
+        {
+          "appico": "qyjyMap.svg",
+          "crdt": "2019-02-28 09:56:49",
+          "applink": "新增test",
+          "appdesc": "新增test新增test新增test新增test",
+          "appid": 47,
+          "apptype": "0",
+          "appnm": "已缴税款查询"
+        },
+        {
+          "appico": "qyjyMap.svg",
+          "crdt": "2019-02-28 09:56:49",
+          "applink": "新增test",
+          "appdesc": "新增test新增test新增test新增test",
+          "appid": 47,
+          "apptype": "0",
+          "appnm": "不动产登记抵押"
+        }
+      ],
+      "desc": null
+    },
+    {
+      "ico": "yggxMap.svg",
+      "name": "员工关系",
+      "sort": 8,
+      "value": [
+        {
+          "appico": "yggxMap.svg",
+          "crdt": "2019-01-08 14:47:56",
+          "applink": "http://www.gdzwfw.gov.cn/portal/guide/11440300055130451Q42120002000",
+          "appdesc": null,
+          "appid": 20,
+          "apptype": null,
+          "appnm": "养老关系转入",
+          "cid": 634
+        },
+        {
+          "appico": "yggxMap.svg",
+          "crdt": "2019-01-08 14:47:05",
+          "applink": "http://www.gdzwfw.gov.cn/portal/guide/11440300053959979Q40708003001",
+          "appdesc": null,
+          "appid": 19,
+          "apptype": null,
+          "appnm": "工伤认定",
+          "cid": 625
+        },
+        {
+          "appico": "yggxMap.svg",
+          "crdt": "2019-01-08 14:48:33",
+          "applink": "http://www.gdzwfw.gov.cn/portal/guide/11440300055130451Q4442100000006",
+          "appdesc": null,
+          "appid": 21,
+          "apptype": null,
+          "appnm": "职工医疗报销"
+        },
+        {
+          "appico": "yggxMap.svg",
+          "crdt": "2019-01-08 14:48:33",
+          "applink": "http://www.gdzwfw.gov.cn/portal/guide/11440300055130451Q4442100000006",
+          "appdesc": null,
+          "appid": 21,
+          "apptype": null,
+          "appnm": "职工社保申报"
+        },
+        {
+          "appico": "yggxMap.svg",
+          "crdt": "2019-01-08 14:48:33",
+          "applink": "http://www.gdzwfw.gov.cn/portal/guide/11440300055130451Q4442100000006",
+          "appdesc": null,
+          "appid": 21,
+          "apptype": null,
+          "appnm": "参保查询"
+        },
+        {
+          "appico": "yggxMap.svg",
+          "crdt": "2019-01-08 14:48:33",
+          "applink": "http://www.gdzwfw.gov.cn/portal/guide/11440300055130451Q4442100000006",
+          "appdesc": null,
+          "appid": 21,
+          "apptype": null,
+          "appnm": "参保注销"
+        },
+        {
+          "appico": "yggxMap.svg",
+          "crdt": "2019-01-08 14:48:33",
+          "applink": "http://www.gdzwfw.gov.cn/portal/guide/11440300055130451Q4442100000006",
+          "appdesc": null,
+          "appid": 21,
+          "apptype": null,
+          "appnm": "创新人才奖申请"
+        },
+        {
+          "appico": "yggxMap.svg",
+          "crdt": "2019-01-08 14:48:33",
+          "applink": "http://www.gdzwfw.gov.cn/portal/guide/11440300055130451Q4442100000006",
+          "appdesc": null,
+          "appid": 21,
+          "apptype": null,
+          "appnm": "单位用工申报"
+        },
+        {
+          "appico": "yggxMap.svg",
+          "crdt": "2019-01-08 14:48:33",
+          "applink": "http://www.gdzwfw.gov.cn/portal/guide/11440300055130451Q4442100000006",
+          "appdesc": null,
+          "appid": 21,
+          "apptype": null,
+          "appnm": "人才住房补贴"
+        },
+        {
+          "appico": "yggxMap.svg",
+          "crdt": "2019-01-08 14:48:33",
+          "applink": "http://www.gdzwfw.gov.cn/portal/guide/11440300055130451Q4442100000006",
+          "appdesc": null,
+          "appid": 21,
+          "apptype": null,
+          "appnm": "技能鉴定"
+        },
+        {
+          "appico": "yggxMap.svg",
+          "crdt": "2019-01-08 14:48:33",
+          "applink": "http://www.gdzwfw.gov.cn/portal/guide/11440300055130451Q4442100000006",
+          "appdesc": null,
+          "appid": 21,
+          "apptype": null,
+          "appnm": "人才引进"
+        },
+        {
+          "appico": "yggxMap.svg",
+          "crdt": "2019-01-08 14:48:33",
+          "applink": "http://www.gdzwfw.gov.cn/portal/guide/11440300055130451Q4442100000006",
+          "appdesc": null,
+          "appid": 21,
+          "apptype": null,
+          "appnm": "档案调出"
+        },
+        {
+          "appico": "yggxMap.svg",
+          "crdt": "2019-01-08 14:48:33",
+          "applink": "http://www.gdzwfw.gov.cn/portal/guide/11440300055130451Q4442100000006",
+          "appdesc": null,
+          "appid": 21,
+          "apptype": null,
+          "appnm": "职级评审"
+        }
+      ],
+      "desc": null
+    },
+    {
+      "ico": "qykbMap.svg",
+      "name": "企业开办",
+      "sort": 5,
+      "value": [
+        {
+          "appico": "qykbMap.svg",
+          "crdt": "2019-01-08 14:49:24",
+          "applink": "http://www.gdzwfw.gov.cn/portal/guide/1144030069558324853442100000042",
+          "appdesc": "1111111",
+          "appid": 22,
+          "apptype": "0",
+          "appnm": "合伙企业登记"
+        },
+        {
+          "appico": "qykbMap.svg",
+          "crdt": "2019-01-08 14:43:34",
+          "applink": "http://apps.szlhq.gov.cn/lhxinqu/zdfw/bzxzflhsq/index.html",
+          "appdesc": null,
+          "appid": 17,
+          "apptype": null,
+          "appnm": "内资企业登记",
+          "cid": 626
+        },
+        {
+          "appico": "qykbMap.svg",
+          "crdt": "2019-01-08 14:39:59",
+          "applink": "http://www.szzfgjj.com/zdyw/dkqlc/",
+          "appdesc": null,
+          "appid": 12,
+          "apptype": null,
+          "appnm": "合伙企业备案"
+        },
+        {
+          "appico": "qykbMap.svg",
+          "crdt": "2019-01-08 14:42:53",
+          "applink": "http://www.gdzwfw.gov.cn/portal/guide/11440300053960523142014091000",
+          "appdesc": "公租轮候申请、安居轮候申请",
+          "appid": 16,
+          "apptype": null,
+          "appnm": "内资企业备案"
+        },
+        {
+          "appico": "qykbMap.svg",
+          "crdt": "2019-01-08 14:29:30",
+          "applink": "http://www.szzfgjj.com/fzgn/zfcq/",
+          "appdesc": null,
+          "appid": 11,
+          "apptype": null,
+          "appnm": "网站备案"
+        },
+        {
+          "appico": "qykbMap.svg",
+          "crdt": "2019-01-08 14:44:18",
+          "applink": "https://szjzz.szga.gov.cn/index/indexlogin?login=1",
+          "appdesc": null,
+          "appid": 18,
+          "apptype": null,
+          "appnm": "安全应急备案"
+        },
+        {
+          "appico": "qykbMap.svg",
+          "crdt": "2019-01-08 14:41:06",
+          "applink": "http://www.gdzwfw.gov.cn/portal/guide/11440300693981103B32014045004",
+          "appdesc": null,
+          "appid": 14,
+          "apptype": null,
+          "appnm": "证照办理"
+        },
+        {
+          "appico": "qykbMap.svg",
+          "crdt": "2019-01-08 14:41:53",
+          "applink": "http://www.gdzwfw.gov.cn/portal/guide/11440300693981103B32014045004",
+          "appdesc": null,
+          "appid": 15,
+          "apptype": null,
+          "appnm": "创业扶持",
+          "cid": 630
+        },
+        {
+          "appico": "qykbMap.svg",
+          "crdt": "2019-01-08 14:28:22",
+          "applink": "https://nbp.szzfgjj.com/newui/login.jsp?transcode=pri",
+          "appdesc": null,
+          "appid": 10,
+          "apptype": null,
+          "appnm": "创业资助"
+        },
+        {
+          "appico": "qykbMap.svg",
+          "crdt": "2019-01-08 14:28:22",
+          "applink": "https://nbp.szzfgjj.com/newui/login.jsp?transcode=pri",
+          "appdesc": null,
+          "appid": 10,
+          "apptype": null,
+          "appnm": "孵化载体清单"
+        },
+        {
+          "appico": "qykbMap.svg",
+          "crdt": "2019-01-08 14:28:22",
+          "applink": "https://nbp.szzfgjj.com/newui/login.jsp?transcode=pri",
+          "appdesc": null,
+          "appid": 10,
+          "apptype": null,
+          "appnm": "创新载体清单"
+        },
+        {
+          "appico": "qykbMap.svg",
+          "crdt": "2019-01-08 14:28:22",
+          "applink": "https://nbp.szzfgjj.com/newui/login.jsp?transcode=pri",
+          "appdesc": null,
+          "appid": 10,
+          "apptype": null,
+          "appnm": "设备共享"
+        },
+        {
+          "appico": "qykbMap.svg",
+          "crdt": "2019-01-08 14:28:22",
+          "applink": "https://nbp.szzfgjj.com/newui/login.jsp?transcode=pri",
+          "appdesc": null,
+          "appid": 10,
+          "apptype": null,
+          "appnm": "外商投资审批"
+        }
+      ],
+      "desc": null
+    }
+
+  ],
+  "timestamp": "1551696946365",
+  "success": true
+}

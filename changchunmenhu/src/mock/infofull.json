@@ -1,0 +1,328 @@
+{
+  "code": 200,
+  "message": "操作成功！",
+  "data": {
+    "secondNodes": [
+      {
+        "code": "P0A0A0",
+        "name": "登记备案",
+        "ncode": "psnBasicData",
+        "items": [
+          {
+            "code": "P0A0A0A0",
+            "name": "注册号",
+            "ncode": "psnName",
+            "items": null,
+            "value": "510107000190845",
+            "type": "TEXT",
+            "isStar": true,
+            "canStar": true
+          },
+          {
+            "code": "P0A0A0A1",
+            "name": "统一社会信用代码",
+            "ncode": "psnOldName",
+            "items": null,
+            "value": null,
+            "type": "TEXT",
+            "isStar": true,
+            "canStar": true
+          },
+          {
+            "code": "P0A0A0A2",
+            "name": "企业名称",
+            "ncode": "psnGender",
+            "items": null,
+            "value": "泰吉盛商贸有限公司",
+            "type": "TEXT",
+            "isStar": true,
+            "canStar": true
+          },
+          {
+            "code": "P0A0A0A3",
+            "name": "法定代表人",
+            "ncode": "psnNation",
+            "items": null,
+            "value": "吴泳泳",
+            "type": "TEXT",
+            "isStar": false,
+            "canStar": true
+          },
+          {
+            "code": "P0A0A0A4",
+            "name": "注册地址",
+            "ncode": "psnBirth",
+            "items": null,
+            "value": "成都市武侯区一环路南二段15号2层H19-1号",
+            "type": "TEXT",
+            "isStar": true,
+            "canStar": true
+          },
+          {
+            "code": "P0A0A0A5",
+            "name": "成立日期",
+            "ncode": "psnTel",
+            "items": null,
+            "value": "2016-07-02",
+            "type": "TEXT",
+            "isStar": false,
+            "canStar": true
+          },
+          {
+            "code": "P0A0A0A6",
+            "name": "营业期限",
+            "ncode": "psnMobile",
+            "items": null,
+            "value": "3999-01-01",
+            "type": "TEXT",
+            "isStar": false,
+            "canStar": true
+          },
+          {
+            "code": "P0A0A0A7",
+            "name": "核准日期",
+            "ncode": "psnAddr",
+            "items": null,
+            "value": "2016-07-21",
+            "type": "TEXT",
+            "isStar": false,
+            "canStar": true
+          },
+          {
+            "code": "P0A0A0A8",
+            "name": "认缴注册资本",
+            "ncode": "psnResType",
+            "items": null,
+            "value": "500万人民币元",
+            "type": "TEXT",
+            "isStar": false,
+            "canStar": true
+          },
+          {
+            "code": "P0A0A0A9",
+            "name": "实缴注册资本",
+            "ncode": "psnAge",
+            "items": null,
+            "value": "500万人民币元",
+            "type": "TEXT",
+            "isStar": false,
+            "canStar": true
+          },
+          {
+            "code": "P0A0A0B0",
+            "name": "企业类型",
+            "ncode": "psnRegAddr",
+            "items": null,
+            "value": "有限责任公司(自然人独资)",
+            "type": "TEXT",
+            "isStar": false,
+            "canStar": true
+          },
+          {
+            "code": "P0A0A0B1",
+            "name": "经营范围",
+            "ncode": "psnUniNo",
+            "items": null,
+            "value": "金属材料、建筑装饰材料、机械设备及配件、五金水暖、日用百货、计算机及通讯器材、针纺织品、皮革制品、服装、玩具的批零兼营等",
+            "type": "TEXT",
+            "isStar": true,
+            "canStar": true
+          },
+          {
+            "code": "P0A0A0B2",
+            "name": "企业状态",
+            "ncode": "psnNationality",
+            "items": null,
+            "value": "存续(在营、开业、注册)",
+            "type": "TEXT",
+            "isStar": false,
+            "canStar": true
+          },
+          {
+            "code": "P0A0A0B3",
+            "name": "机构代码",
+            "ncode": "psnPolStatus",
+            "items": null,
+            "value": "G10510107081515406",
+            "type": "TEXT",
+            "isStar": false,
+            "canStar": true
+          },
+          {
+            "code": "P0A0A0B4",
+            "name": "所属行业",
+            "ncode": "psnEducation",
+            "items": null,
+            "value": "信息传输、软件和信息技术服务业",
+            "type": "TEXT",
+            "isStar": false,
+            "canStar": true
+          }
+        ],
+        "itemTotal": 19,
+        "followTotal": 5
+      },
+      {
+        "code": "P0A0A2",
+        "name": "高管信息",
+        "ncode": "psnFamiRela",
+        "items": [
+          {
+            "code": "P0A0A2A0",
+            "name": "父母信息",
+            "ncode": "psnParentIf",
+            "items": null,
+            "value": null,
+            "type": "DETAIL",
+            "isStar": false,
+            "canStar": true
+          },
+          {
+            "code": "P0A0A2A1",
+            "name": "夫妻信息",
+            "ncode": "psnSpouseIf",
+            "items": null,
+            "value": null,
+            "type": "DETAIL",
+            "isStar": false,
+            "canStar": true
+          },
+          {
+            "code": "P0A0A2A2",
+            "name": "子女信息",
+            "ncode": "psnChildIf",
+            "items": null,
+            "value": null,
+            "type": "DETAIL",
+            "isStar": false,
+            "canStar": true
+          },
+          {
+            "code": "P0A0A2A3",
+            "name": "兄弟姐妹信息",
+            "ncode": "psnBroSisIf",
+            "items": null,
+            "value": null,
+            "type": "DETAIL",
+            "isStar": false,
+            "canStar": true
+          },
+          {
+            "code": "P0A0A2A4",
+            "name": "收养信息",
+            "ncode": "psnAdoptionIf",
+            "items": null,
+            "value": null,
+            "type": "DETAIL",
+            "isStar": false,
+            "canStar": true
+          }
+        ],
+        "itemTotal": 5,
+        "followTotal": 0
+      },
+      {
+        "code": "P0A0A4",
+        "name": "股东信息",
+        "ncode": "psnCaucusIf",
+        "items": [
+          {
+            "code": "P0A0A4A0",
+            "name": "团员信息",
+            "ncode": "psnLeagueMemberIf",
+            "items": null,
+            "value": null,
+            "type": "DETAIL",
+            "isStar": false,
+            "canStar": true
+          },
+          {
+            "code": "P0A0A4A1",
+            "name": "党员信息",
+            "ncode": "psnPartyMemberIf",
+            "items": null,
+            "value": null,
+            "type": "DETAIL",
+            "isStar": false,
+            "canStar": true
+          }
+        ],
+        "itemTotal": 2,
+        "followTotal": 0
+      },
+      {
+        "code": "P0A0A1",
+        "name": "税务信息",
+        "ncode": "psnHouRentalIf",
+        "items": [
+          {
+            "code": "P0A0A1A0",
+            "name": "起止日期",
+            "ncode": "psnBegAndEndDate",
+            "items": null,
+            "value": "2018-01-20/2020-01-20",
+            "type": "TEXT",
+            "isStar": false,
+            "canStar": true
+          },
+          {
+            "code": "P0A0A1A1",
+            "name": "合同状态",
+            "ncode": "psnContractStatus",
+            "items": null,
+            "value": "有效",
+            "type": "TEXT",
+            "isStar": false,
+            "canStar": true
+          },
+          {
+            "code": "P0A0A1A2",
+            "name": "出租房",
+            "ncode": "psnRental",
+            "items": null,
+            "value": "王五",
+            "type": "TEXT",
+            "isStar": false,
+            "canStar": true
+          },
+          {
+            "code": "P0A0A1A3",
+            "name": "房屋地址",
+            "ncode": "psnHouseAddr",
+            "items": null,
+            "value": "深圳市深南大道6021号喜年中心20楼2003号",
+            "type": "TEXT",
+            "isStar": false,
+            "canStar": true
+          }
+        ],
+        "itemTotal": 4,
+        "followTotal": 0
+      },
+
+      {
+        "code": "P0A0A3",
+        "name": "企业变更信息",
+        "ncode": "psnMilitarySerIf",
+        "items": [
+          {
+            "code": "P0A0A3A0",
+            "name": "服役信息",
+            "ncode": "psnEscuageIf",
+            "items": null,
+            "value": null,
+            "type": "DETAIL",
+            "isStar": false,
+            "canStar": true
+          }
+        ],
+        "itemTotal": 1,
+        "followTotal": 0
+      }
+
+    ],
+    "itemTotal": 31
+  },
+  "timestamp": "1551752052202",
+  "success": true
+}
