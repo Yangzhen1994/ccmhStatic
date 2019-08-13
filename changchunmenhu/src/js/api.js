@@ -20,7 +20,7 @@
 })('lhRequest', function (axios) {
     // var isIOS = !!navigator.userAgent.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/);//判断是否是ios
     // var isoVersion = navigator.userAgent.match(/(iPhone\sOS)\s([\d_]+)/)[2].replace(/_/g, '.');//取出ios版本号
-
+    var _api = {}
     // 创建axios实例
     const _service = axios.create({
         //   baseURL: 'http://123.56.28.198:8881',
@@ -110,6 +110,6 @@
         lyTool.hideloading()
         return Promise.reject(error);
     });
-    _api.service = serviceProxy
+    _api.service = _service
     return _api
 })

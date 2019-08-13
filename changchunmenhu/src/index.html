@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>首页</title>
-
+    <link rel="stylesheet" href="./libs/layui/css/layui.css" media="all">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/base.css">
     <script src="js/common.js"></script>
@@ -24,8 +24,8 @@
     </div>
 </div>
 <div class="main_container clearfix">
-    <div class="sidebar">
-        <div class="collapse_icon">
+    <div class="sidebar is_show">
+        <div class="collapse_icon is_show">
             <img src="./img/收起.png" alt="">
         </div>
         <ul class="menu_list">
@@ -89,15 +89,15 @@
                         <div class="card_data">50</div>
                         <div class="card_desc">梳理部门</div>
                     </div>
-                    <div class="" >
+                    <div class="">
                         <div class="card_data">809</div>
                         <div class="card_desc">业务事项</div>
                     </div>
-                    <div class="" >
+                    <div class="">
                         <div class="card_data">237</div>
                         <div class="card_desc">信息系统</div>
                     </div>
-                    <div class="" >
+                    <div class="">
                         <div class="card_data">2122</div>
                         <div class="card_desc">资源目录</div>
                     </div>
@@ -124,7 +124,9 @@
             <div class="title" id="rightTitle">
                 <img src="./img/titIcon01.png" class="title_icon" alt="">新闻中心
             </div>
-            <div class="tab_wrap_content clearfix" id="rightContent"></div>
+            <div class="tab_wrap_content clearfix" id="rightContent">
+
+            </div>
         </div>
     </div>
 </div>
@@ -136,25 +138,83 @@
         <div style="width: 168px"><span>承办单位：神州数码</span></div>
     </div>
 </div>
+<!-- 新闻中心下半部分模板 -->
+<script id="xwzx" type="text/html">
+    {{if list.length > 0}}
+
+    <div class="swiper_area fl">
+        <div id="carouselImg" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                {{each list value i}}
+                {{if i == 0}}
+                <li data-target="#carouselImg" data-slide-to="{{i}}" class="active"></li>
+                {{else}}
+                <li data-target="#carouselImg" data-slide-to="{{i}}" class=""></li>
+                {{/if}}
+                {{/each}}
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                {{each list value i}}
+                {{if i == 0}}
+                <div class="item active">
+                    <a href="{{value.url}}">
+                        <img src="./img/temp/{{value.img}}" alt="图片不见了">
+                    </a>
+                    <div class="carousel-caption hide">{{value.content}}</div>
+                </div>
+                {{else}}
+                <div class="item">
+                    <a href="{{value.url}}">
+                        <img src="./img/temp/{{value.img}}" alt="图片不见了">
+                    </a>
+                    <div class="carousel-caption hide">{{value.content}}</div>
+                </div>
+                {{/if}}
+                {{/each}}
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carouselImg" role="button" data-slide="prev">
+                            <span class="glyphicon-chevron-left arrow_wrap" aria-hidden="true">
+                                <img src="./img/arrow_prev.png" alt="">
+                            </span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carouselImg" role="button" data-slide="next">
+                            <span class="glyphicon-chevron-right arrow_wrap" aria-hidden="true">
+                                <img src="./img/arrow_next.png" alt="">
+                            </span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <div id="carouselText">{{list[0].content}}</div>
+    </div>
+
+
+    {{/if}}
+</script>
 <!-- 专题应用下半部分模板 -->
 <script id="ztyy" type="text/html">
     {{if list.length > 0}}
-        {{each list value i}}
-            <div class="right_card right_card_ztyy">
+    {{each list value i}}
+    <div class="right_card right_card_ztyy">
 
-                <div class="img_wrap">
-                    <a href="{{value.url}}">
-                        <img src="./img/ztyy/{{value.img}}" alt="">
-                    </a>
-                </div>
-                <div class="right_card_title">
-                    <a href="{{value.url}}">{{value.title}}</a>
-                </div>
-                <div class="right_card_desc">
-                    {{value.desc}}
-                </div>
-            </div>
-        {{/each}}
+        <div class="img_wrap">
+            <a href="{{value.url}}">
+                <img src="./img/ztyy/{{value.img}}" alt="">
+            </a>
+        </div>
+        <div class="right_card_title">
+            <a href="{{value.url}}">{{value.title}}</a>
+        </div>
+        <div class="right_card_desc">
+            {{value.desc}}
+        </div>
+    </div>
+    {{/each}}
     {{/if}}
 </script>
 <!-- 基础平台下半部分模板 -->
@@ -206,17 +266,19 @@
 <script src="./libs/template-web.js"></script>
 <script src="./libs/bootstrap.min.js"></script>
 <script src="./libs/axios.min.js"></script>
+<script src="./js/jquery.dotdotdot.js"></script>
+<script src="./libs/layui/layui.js"></script>
 <script src="./js/config.js"></script>
 <script src="./js/layout.js"></script>
 <script src="./js/render.js"></script>
 <script>
-    $('.collapse_icon').click(function () {
-        alert(1)
-    })
+    layui.use('laypage', function(){
+        window.laypage = layui.laypage;
+    });
     window.onresize = function () {
         rem()
     }
-      //  alert($('.footer').height()/2)
+    //  alert($('.footer').height()/2)
 
 
 </script>

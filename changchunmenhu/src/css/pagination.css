@@ -1,0 +1,88 @@
+@charset "UTF-8";
+.m_style {
+    position: relative;
+    text-align: center;
+    zoom: 1;
+}
+
+.m_style:before,
+.m_style:after {
+    content: "";
+    display: table;
+}
+
+.m_style:after {
+    clear: both;
+    overflow: hidden;
+}
+
+.m_style span {
+    float: left;
+    margin: 0 5px;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    color: #bdbdbd;
+    font-size: 14px;
+}
+
+.m_style .active {
+    float: left;
+    margin: 0 5px;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    background:#0090FF;
+    color: #fff;
+    font-size: 14px;
+    /*border: 1px solid #ff8200;*/
+}
+
+.m_style a {
+    float: left;
+    margin: 0 5px;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    background: #fff;
+    border: 1px solid #ebebeb;
+    color: #bdbdbd;
+    font-size: 14px;
+}
+
+.m_style a:hover {
+    color: #fff !important;
+    background:#0090FF;
+}
+
+.m_style .next,
+.m_style .prev {
+    font-family: "Simsun";
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.now,
+.count {
+    padding: 0 5px;
+    color: #f00;
+}
+
+.eg img {
+    max-width: 800px;
+    min-height: 500px;
+}
+
+input {
+    float: left;
+    margin: 0 5px;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    background: #fff;
+    border: 1px solid #ebebeb;
+    outline: none;
+    color: #bdbdbd;
+    font-size: 14px;
+}

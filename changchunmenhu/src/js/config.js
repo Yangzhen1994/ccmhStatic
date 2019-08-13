@@ -182,3 +182,21 @@ var sjzsData = [
         }
     ]
 ]
+
+var xwzxSwiperData = [
+        {
+            img:'图层2.png',
+            url:'http://wwww.baidu.com',
+            content:'3月19日，长春新区召开扫黑除恶专项斗争长春新区召开扫黑除恶专项斗争领导小组会议暨省市督导领导小组会议暨省市督导检查反馈意见整改落实、“一案一整治”工作部署及配合做好中央督导检查工作会议，深入贯彻落实全市扫黑除恶专项斗争工作推进...'
+        },
+        {
+            img:'bg2.jpg',
+            url:'http://wwww.baidu.com',
+            content:'一切都是命运石之门的选择'
+        },
+        {
+            img:'gl7.jpg',
+            url:'http://wwww.baidu.com',
+            content:'钢之炼金术士'
+        }
+]
