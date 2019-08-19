@@ -102,7 +102,7 @@ function renderNoTabsContent(index, type) {
             $('#rightContent').append(listHtml)
             $('#newsListWrap').load('./baseComponents/news_list.html')
             $('#carouselImg').on('slid.bs.carousel', function (e) {
-                console.log($('.item.active .carousel-caption').text())
+                //console.log($('.item.active .carousel-caption').text())
                 $('#carouselText').html($('.item.active .carousel-caption').text())
             })
             $("#carouselText").dotdotdot({
